@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="styles.css">
+<title>English-French Adverbs List</title>
+</head>
+<body>
+
+<div class="app-header">
+  <h1>English Adverbs with French Translations</h1>
+</div>
+
+<div class="container">
+  <p class="info-text">Use the buttons below each adverb to see examples, translations, or hear pronunciation</p>
+  
+  <div class="search-container">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="search-input" class="search-box" placeholder="Search for adverbs in English or French...">
+  </div>
+  
+  <div class="items-per-page">
+    <label for="items-per-page-select">Items per page:</label>
+    <select id="items-per-page-select">
+      <option value="10" selected>10</option>
+      <option value="15">15</option>
+      <option value="20">20</option>
+      <option value="all">All</option>
+    </select>
+  </div>
+  
+  <ul id="adverb-list" class="adverb-list">
+    <!-- Adverbs will be inserted here via JavaScript -->
+  </ul>
+  
+  <div id="pagination" class="pagination">
+    <!-- Pagination buttons will be inserted here via JavaScript -->
+  </div>
+</div>
+
+<script src="main.js">
+</script>
+</body>
+</html>
